@@ -1,3 +1,12 @@
+"""
+            WORK IN PRORGESS 
+    Construction of webpage will be prioritized with the implementation
+    of "compass.py" to be later implemented upon.
+
+"""
+
+
+
 import time
 import turtle
 
