@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def main():
-    title_page = "Bad Political Compass"
-    return render_template('page.html', title_page=title_page)
+    text = "Bad Political Compass"
+    return 'This is the {text}'
 
 if __name__ == '__main__':
     app.run()
